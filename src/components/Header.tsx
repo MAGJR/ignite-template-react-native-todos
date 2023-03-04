@@ -20,7 +20,7 @@ export function Header({ tasksCounter }: HeaderProps) {
       
       <View style={styles.tasks}>
         <Text style={styles.tasksCounter}>Você tem </Text>
-        {/* <Text style={styles.tasksCounterBold}>{tasksCounter} {tasksCounterText}</Text> */}
+        { <Text style={styles.tasksCounterBold}>{tasksCounter} {tasksCounterText}</Text> }
       </View>
     </View>
   )
